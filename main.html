@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleformain.css">
+    <title>Mystyle</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Fitness</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="gym.mp4" muted loop autoplay></video>
+            <div class="overlay"></div>
+            <div class="text">
+                <h2>Never stop</h2>
+                <h3>Yourself from anything</h3>
+                <a href="homie.html">LET'S GO!</a>
+            </div>
+            <ul class="social">
+                <li><a href="#"><img src="facebook.png"></a></li>
+                <li><a href="#"><img src="twitter.png"></a></li>
+                <li><a href="#"><img src="instagram.png"></a></li>
+            </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="login.html">Admin</a></li>
+            <li><a href="login3.php">Trainers</a></li>
+            <li><a href="login2.php">Trainees</a></li>
+        </ul>
+    </div>
+    <script>
+        const menutog=document.querySelector('.toggle')
+        const showcase=document.querySelector('.showcase')
+        menutog.addEventListener('click',function(){
+            menutog.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+    
+</body>
+</html>

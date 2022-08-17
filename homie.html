@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylehome.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title></title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="file3.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#crs">OFFERS</a></li>
+                    <li><a href="#fc">FACILITIES</a></li>
+                    <li><a href="#ts">TESTIMONIALS</a></li>
+                    <li><a href="#con">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>FIT STUDIO</h1>
+            <p>DON'T STOP TILL YOU DROP</p>
+            <a href="about_us.html" class="btn">Visit to know more</a>        
+        </div>
+    </section>
+    
+    <!---2nd part--->
+    <section class="course" id="crs">
+        <h1>Exercise we provide</h1>
+        <p>Karnataka's Favorite Trio</p>
+        <div class="row">
+            <div class="col">
+                <h3>Treadmill</h3>
+                <img src="tdmill.jpg" alt="TREADMILL">
+                <p>Running or jogging on a treadmill is a very effective way to burn fat and lose weight.</p>
+            </div>
+                <div class="col">
+                    <h3>Cardio machines</h3>
+                    <img src="cycles.jpg" alt="Cardiomachines">
+                    <p>Performing cardiovascular exercise changes the hormonal profile in your body considerably.</p>
+                </div>
+                <div class="col">
+                    <h3>Weight lifts</h3>
+                    <img src="lift.jpg" alt="Weightlifts">
+                    <p>Lifting weights will lift your mood! Exercise in general is known to be of excellent benefit in the fight against depression.</p>
+                </div>
+                
+        </div>
+        
+    </section>
+    
+   
+    
+    <!---4th part-->
+    <section class="facilities" id="fc">
+        <h1>Our facilities</h1>
+        <p>For Relaxation</p>
+        <div class="row">
+            <div class="fcol">
+                <img src="tanningbed.jpg" alt="Tanningbed">
+                <h3>Tanning bed/Artificial sun bed</h3>
+                <p>Hormonal balance and oil production.</p>
+            </div>
+            <div class="fcol">
+                <img src="sauna.jfif" alt="Sauna">
+                <h3>Sauna</h3>
+                <p>Improving cardiovascular health.</p>
+            </div>
+            <div class="fcol">
+                <img src="healthspa.jpg" alt="Health spa">
+                <h3>Health spa</h3>
+                <p>Helps in anti-ageing.</p>
+            </div>
+        </div>
+
+    </section>
+    
+    <!---5th part-->
+    <section class="test" id="ts">
+        <h1>What Our Trainees Say</h1>
+        <p>About Our Gym</p>
+        <div class="row">
+            <div class="testcol">
+                <img src="johny.jpg" alt="Trainee saying">
+                <div>
+                    <h3>Suresh</h3>
+                    <p>Wondeful trainers!! Just feels awesome to learn from them</p>
+                    
+                </div>
+            </div>
+            <div class="testcol">
+                <img src="name.jpg" alt="Trainee saying 2">
+                <div>
+                    <h3>Ramesh</h3>
+                    <p>It's a wonderful gym with all facilities, we can choose any exercise. </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+<!---6th part-->
+<section class="cta" id="con">
+    <h1>
+        Enroll For The Training
+    </h1>
+    <a href="contact_us.html"class="btn">CONTACT US</a>
+</section>
+<!---last last last part XO footer-->
+<section class="footer">
+    <h4>OUR SOCIAL MEDIA</h4>
+    <div class="icon">
+        <img src="facebook.png" alt="facebook">
+        <img src="twitter.png" alt="twitter">
+        <img src="instagram.png" alt="instagram">
+    </div>
+    <p>Copyright © 2021 Fitness ALL RIGHTS RESERVED</p>
+</section>
+
+    
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showmenu()
+        {
+            navlinks.style.right="0";
+        }
+        function hidemenu()
+        {
+            navlinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

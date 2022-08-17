@@ -1,0 +1,42 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background-color: #ffd791;
+    background-image: linear-gradient(90deg, #ffd791 0%, #fd8169 100%);
+}
+table
+{
+    width:100%;
+    text-align: center;
+}
+.row
+{
+    margin-top:5%;
+    display:flex;
+}
+th
+{
+    background:#bebebe;
+    transition: 0.5s;
+}
+
+th:hover{
+    filter:invert(1);
+    box-shadow:0 0 20px 0px rgba(0, 0, 0, 0.11);
+
+}
+
+.mem
+{
+    height:100vh;
+    width:100%;
+    align-items: center;
+    background-position: center;
+    position:relative;
+    display:flex;
+    justify-content: center;
+}
